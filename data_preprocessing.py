@@ -5,7 +5,7 @@
 import pandas as pd
 import numpy as np
 
-root_dir = "S:/can/bank/Departments/Risk/Risk Analytics/rezenro/Projects/transaction_fraud/data/"
+root_dir = "C:/Users/rarez/Documents/Data Science/transaction_fraud/data/"
 
 #%% ----------------------------------------------------------------------- #
 

@@ -28,7 +28,7 @@ K.tf.set_random_seed(42)
 tf_config = K.tf.ConfigProto(intra_op_parallelism_threads=1, inter_op_parallelism_threads=1)
 K.set_session(K.tf.Session(graph=K.tf.get_default_graph(), config=tf_config))
 
-root_dir = "S:/can/bank/Departments/Risk/Risk Analytics/rezenro/Projects/transaction_fraud/"
+root_dir = "C:/Users/rarez/Documents/Data Science/transaction_fraud/"
 train_data = pd.read_csv(root_dir + "data/training.csv")
 fraud_transactions = train_data[train_data.fraud_flag==True]
 train_data = train_data[train_data.fraud_flag==False]

@@ -113,7 +113,7 @@ def create_training_data():
     
     startTime = time.time()
 
-    root_dir = "S:/can/bank/Departments/Risk/Risk Analytics/rezenro/Projects/transaction_fraud/data/"
+    root_dir = "C:/Users/rarez/Documents/Data Science/transaction_fraud/data/"
     
     feat_sets = list()
     feat_sets.append({'period': 0.001, 'agg_filters':[('',''),('code','SAME')]}) # 3.6 seconds

@@ -12,7 +12,7 @@ from sklearn.metrics import roc_curve
 from sklearn.model_selection import GroupKFold
 #from sklearn.model_selection import StratifiedKFold
 
-root_dir = "S:/can/bank/Departments/Risk/Risk Analytics/rezenro/Projects/transaction_fraud/data/"
+root_dir = "C:/Users/rarez/Documents/Data Science/transaction_fraud/data"
 train_data = pd.read_csv(root_dir + "training.csv")
 
 X = train_data.loc[:,'amount':].values
